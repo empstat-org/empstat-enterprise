@@ -3,9 +3,10 @@ Configuration for the ENTERPRISE / ESTABLISHMENT DATA Coverage Index.
 
 Same shape as config.py / config_admin.py, but tuned for company-level labour
 statistics — the series that come from establishment / enterprise surveys,
-economic & establishment censuses, and register / social-security sources
+economic & establishment censuses, and establishment / business registers
 (everything that is collected from the *employer/business* rather than from
-households).
+households). Social-security / social-insurance records are treated as an
+administrative source and excluded (they belong to the Admin index).
 
 Three criteria (coverage + frequency + recency), because establishment sources
 are often high-frequency (monthly / quarterly earnings and employees). Pending
@@ -16,7 +17,8 @@ Run:  python fetch_and_rank.py --config config_enterprise --out ../web/data
 SOURCE FILTER — "all establishment / enterprise / register sources"
 -------------------------------------------------------------------
 Per the design decision, this index counts *every* source EXCEPT household /
-labour-force surveys, population censuses and modelled / official estimates.
+labour-force surveys, population censuses, social-security / social-insurance
+records, and modelled / official estimates.
 That is expressed by leaving HOUSEHOLD_SURVEY_KEYWORDS **empty** — the pipeline
 (fetch_and_rank.is_household_source) then includes any source that is not in
 SOURCE_EXCLUDE_KEYWORDS. Note that ECONOMIC and ESTABLISHMENT censuses are kept
@@ -73,6 +75,12 @@ SOURCE_EXCLUDE_KEYWORDS = [
     "population census",
     "population and housing census",
     "housing census",
+    # social-security / social-insurance registers (belong to the Admin index).
+    # Establishment / business registers and economic censuses are still kept;
+    # only social-security-based records are excluded here.
+    "social security",
+    "social-security",
+    "social insurance",
     # never count modelled / official estimates — national sources only
     "modelled",
     "modeled",
