@@ -329,7 +329,7 @@ def gather(limit=None):
                     rec = avail[iso].get(key)
                     if rec is None:
                         rec = {"covered": False, "latest": None, "latest_period": None,
-                               "periodicity": None, "recent_years": set(), "via": None}
+                               "periodicity": None, "recent_years": set(), "pers": set(), "via": None}
                         avail[iso][key] = rec
                     if len(fetch_codes) > 1:
                         rec["via"] = code_labels.get(base, base)
@@ -344,6 +344,7 @@ def gather(limit=None):
                     order = {"M": 3, "Q": 2, "A": 1, None: 0}
                     if order[period] > order[rec["periodicity"]]:
                         rec["periodicity"] = period
+                    rec["pers"].add(period)
                     n += 1
                 print(f"      kept {n} qualifying observations")
             except requests.HTTPError as e:
@@ -366,6 +367,14 @@ def gather(limit=None):
 # --------------------------------------------------------------------------- #
 def _clamp(x, lo=0.0, hi=100.0):
     return max(lo, min(hi, x))
+
+
+_PERIOD_ORDER = {"M": 0, "Q": 1, "A": 2}
+
+
+def sorted_pers(pers):
+    """Return the periodicities present, ordered fastest-first (M, Q, A)."""
+    return sorted({p for p in (pers or ()) if p}, key=lambda p: _PERIOD_ORDER.get(p, 9))
 
 
 def score_country(inds):
@@ -416,7 +425,11 @@ def score_country(inds):
         if lp and (latest_period is None or period_sort_key(lp) > period_sort_key(latest_period)):
             latest_period = lp
 
+    allpers = set()
+    for _rec in inds.values():
+        allpers |= set(_rec.get("pers", ()) or ())
     meta = {
+        "periodicities": sorted_pers(allpers),
         "latest_year": latest,
         "latest_period": latest_period,
         "best_periodicity": best_p,
@@ -459,6 +472,7 @@ def build(limit=None):
             "latest_year": meta["latest_year"],
             "latest_period": meta["latest_period"],
             "best_periodicity": meta["best_periodicity"],
+            "periodicities": meta["periodicities"],
             "n_covered": meta["n_covered"],
             "n_total": meta["n_total"],
             "pending": pending,
@@ -472,6 +486,7 @@ def build(limit=None):
                     "covered": inds.get(code, {}).get("covered", False),
                     "latest": inds.get(code, {}).get("latest"),
                     "periodicity": inds.get(code, {}).get("periodicity"),
+                    "periodicities": sorted_pers(inds.get(code, {}).get("pers")),
                     "via": inds.get(code, {}).get("via"),
                 }
                 for code in [i["code"] for i in C.KEY_INDICATORS]
