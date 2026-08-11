@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-11 10:56",
+  "generated": "2026-08-11 11:52",
   "current_year": 2026,
   "index_name": "Enterprise / Establishment Data Coverage Index",
   "source": "ILOSTAT (ilostat.ilo.org)",
@@ -382,25 +382,21 @@
       "iso3": "BHR",
       "country": "Bahrain",
       "region": "Arab States",
-      "coverage": 52.0,
-      "frequency": 75.0,
-      "recency": 54.5,
-      "latest_year": 2020,
-      "latest_period": "2020",
+      "coverage": 40.0,
+      "frequency": 50.0,
+      "recency": 9.1,
+      "latest_year": 2015,
+      "latest_period": "2015Q4",
       "best_periodicity": "M",
       "periodicities": [
         "M",
         "Q",
         "A"
       ],
-      "n_covered": 4,
+      "n_covered": 3,
       "n_total": 9,
       "pending": null,
       "sources": [
-        {
-          "name": "ADM-IR - Social Insurance organization Records",
-          "latest": 2020
-        },
         {
           "name": "OE - Estimates of Central informatics organization",
           "latest": 2015
@@ -434,8 +430,8 @@
           "via": null
         },
         "EAR_EMTA_SEX_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2020,
+          "covered": false,
+          "latest": 2007,
           "periodicity": "A",
           "periodicities": [
             "A"
@@ -938,10 +934,10 @@
       "iso3": "CYP",
       "country": "Cyprus",
       "region": "Europe and Central Asia",
-      "coverage": 8.0,
+      "coverage": 0.0,
       "frequency": 50.0,
-      "recency": 100.0,
-      "latest_year": 2025,
+      "recency": 0.0,
+      "latest_year": 2004,
       "latest_period": "2004M12",
       "best_periodicity": "M",
       "periodicities": [
@@ -949,14 +945,10 @@
         "Q",
         "A"
       ],
-      "n_covered": 1,
+      "n_covered": 0,
       "n_total": 9,
       "pending": null,
       "sources": [
-        {
-          "name": "ADM-IR - Ministry of Labour and Social Insurance Records",
-          "latest": 2025
-        },
         {
           "name": "ES - Employment Survey",
           "latest": 2004
@@ -1018,12 +1010,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -3846,10 +3836,6 @@
         {
           "name": "LFS - Employment and Income Survey",
           "latest": 2025
-        },
-        {
-          "name": "ADM-IR - Records of the Guatemalan Social Security Institute",
-          "latest": 2008
         }
       ],
       "indicators": {
@@ -7577,7 +7563,7 @@
       "iso3": "CHN",
       "country": "China",
       "region": "Asia and the Pacific",
-      "coverage": 28.0,
+      "coverage": 16.0,
       "frequency": 70.0,
       "recency": 81.8,
       "latest_year": 2023,
@@ -7586,17 +7572,13 @@
       "periodicities": [
         "A"
       ],
-      "n_covered": 2,
+      "n_covered": 1,
       "n_total": 9,
       "pending": null,
       "sources": [
         {
           "name": "LFS - National Labour Survey",
           "latest": 2023
-        },
-        {
-          "name": "ADM - Labour and Social Security Records",
-          "latest": 2022
         },
         {
           "name": "ES - Employment and wages statistics based on enterprises' reports",
@@ -7621,8 +7603,8 @@
           "via": null
         },
         "EAR_EMTA_SEX_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2022,
+          "covered": false,
+          "latest": 2008,
           "periodicity": "A",
           "periodicities": [
             "A"
@@ -8352,104 +8334,14 @@
       }
     },
     {
-      "iso3": "MCO",
-      "country": "Monaco",
-      "region": "Europe and Central Asia",
-      "coverage": 16.0,
-      "frequency": 55.0,
-      "recency": 72.7,
-      "latest_year": 2022,
-      "latest_period": "2022",
-      "best_periodicity": "A",
-      "periodicities": [
-        "A"
-      ],
-      "n_covered": 1,
-      "n_total": 9,
-      "pending": null,
-      "sources": [
-        {
-          "name": "ADM - Social Insurance Funds",
-          "latest": 2022
-        }
-      ],
-      "indicators": {
-        "EES_TEES_SEX_AGE_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EMP_TEMP_SEX_ECO_NB": {
-          "covered": true,
-          "latest": 2022,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
-          "via": null
-        },
-        "EAR_EMTA_SEX_ECO_CUR_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EAR_EHRA_SEX_ECO_CUR_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "HOW_TEMP_SEX_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EES_TEES_SEX_AGE_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EES_TEES_SEX_AGE_INS_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "LAC_XEES_ECO_CUR_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EMP_TEMP_SEX_STE_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        }
-      }
-    },
-    {
       "iso3": "MHL",
       "country": "Marshall Islands",
       "region": "Asia and the Pacific",
       "coverage": 0.0,
       "frequency": 30.0,
       "recency": 0.0,
-      "latest_year": 2010,
-      "latest_period": "2010",
+      "latest_year": 2005,
+      "latest_period": "2005",
       "best_periodicity": "A",
       "periodicities": [
         "A"
@@ -8458,10 +8350,6 @@
       "n_total": 9,
       "pending": null,
       "sources": [
-        {
-          "name": "OE - Social Security plus EPPSO Estimates",
-          "latest": 2010
-        },
         {
           "name": "HS - Community Survey",
           "latest": 2005
@@ -8477,7 +8365,7 @@
         },
         "EMP_TEMP_SEX_ECO_NB": {
           "covered": false,
-          "latest": 2010,
+          "latest": 2005,
           "periodicity": "A",
           "periodicities": [
             "A"
@@ -8927,10 +8815,6 @@
         {
           "name": "ADM - Administrative records and related sources",
           "latest": 2011
-        },
-        {
-          "name": "ADM-IR - Social Security, Tax Administration, and French Representation",
-          "latest": 2003
         }
       ],
       "indicators": {
@@ -8952,11 +8836,9 @@
         },
         "EAR_EMTA_SEX_ECO_CUR_NB": {
           "covered": false,
-          "latest": 2003,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EAR_EHRA_SEX_ECO_CUR_NB": {
