@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29 01:22",
+  "generated": "2026-10-06 01:59",
   "current_year": 2026,
   "index_name": "Enterprise / Establishment Data Coverage Index",
   "source": "ILOSTAT (ilostat.ilo.org)",
@@ -87,24 +87,20 @@
       "iso3": "BGR",
       "country": "Bulgaria",
       "region": "Europe and Central Asia",
-      "coverage": 24.0,
+      "coverage": 16.0,
       "frequency": 50.0,
-      "recency": 100.0,
-      "latest_year": 2025,
+      "recency": 0.0,
+      "latest_year": 2014,
       "latest_period": "2014M12",
       "best_periodicity": "M",
       "periodicities": [
         "M",
         "A"
       ],
-      "n_covered": 2,
+      "n_covered": 1,
       "n_total": 9,
       "pending": null,
       "sources": [
-        {
-          "name": "ES - Annual Enterprises Survey on Number of employees, Wages and salaries and Other labour costs",
-          "latest": 2025
-        },
         {
           "name": "ES - Quarterly Survey on Employees, Hours Worked, Wages and Salaries, and Other Expenditures Paid by the Employer",
           "latest": 2014
@@ -169,12 +165,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -477,24 +471,20 @@
       "iso3": "CZE",
       "country": "Czechia",
       "region": "Europe and Central Asia",
-      "coverage": 24.0,
+      "coverage": 16.0,
       "frequency": 50.0,
-      "recency": 100.0,
-      "latest_year": 2025,
+      "recency": 0.0,
+      "latest_year": 2014,
       "latest_period": "2014M08",
       "best_periodicity": "M",
       "periodicities": [
         "M",
         "A"
       ],
-      "n_covered": 2,
+      "n_covered": 1,
       "n_total": 9,
       "pending": null,
       "sources": [
-        {
-          "name": "ES - Labour-related Establishment Survey",
-          "latest": 2025
-        },
         {
           "name": "ES - Structure of Earnings Survey",
           "latest": 2014
@@ -559,12 +549,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -580,7 +568,7 @@
       "iso3": "HUN",
       "country": "Hungary",
       "region": "Europe and Central Asia",
-      "coverage": 24.0,
+      "coverage": 16.0,
       "frequency": 50.0,
       "recency": 0.0,
       "latest_year": 2014,
@@ -590,17 +578,13 @@
         "M",
         "A"
       ],
-      "n_covered": 2,
+      "n_covered": 1,
       "n_total": 9,
       "pending": null,
       "sources": [
         {
           "name": "ES - Survey of Individual Wages and Earnings",
           "latest": 2014
-        },
-        {
-          "name": "ES - Earnings and employment-related income Survey",
-          "latest": 2012
         },
         {
           "name": "EC - Employment and Earnings Survey",
@@ -662,12 +646,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2012,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -872,10 +854,10 @@
       "iso3": "MKD",
       "country": "North Macedonia",
       "region": "Europe and Central Asia",
-      "coverage": 20.0,
+      "coverage": 12.0,
       "frequency": 50.0,
-      "recency": 54.5,
-      "latest_year": 2020,
+      "recency": 0.0,
+      "latest_year": 2014,
       "latest_period": "2014",
       "best_periodicity": "M",
       "periodicities": [
@@ -883,17 +865,17 @@
         "Q",
         "A"
       ],
-      "n_covered": 2,
+      "n_covered": 1,
       "n_total": 9,
       "pending": null,
       "sources": [
         {
-          "name": "ES - Survey on employees and net wages",
-          "latest": 2020
-        },
-        {
           "name": "ES - Structure of Earnings Survey",
           "latest": 2014
+        },
+        {
+          "name": "ES - Survey on employees and net wages",
+          "latest": 2010
         }
       ],
       "indicators": {
@@ -953,12 +935,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2020,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -974,24 +954,20 @@
       "iso3": "POL",
       "country": "Poland",
       "region": "Europe and Central Asia",
-      "coverage": 24.0,
+      "coverage": 16.0,
       "frequency": 50.0,
-      "recency": 100.0,
-      "latest_year": 2025,
+      "recency": 0.0,
+      "latest_year": 2013,
       "latest_period": "2013M11",
       "best_periodicity": "M",
       "periodicities": [
         "M",
         "A"
       ],
-      "n_covered": 2,
+      "n_covered": 1,
       "n_total": 9,
       "pending": null,
       "sources": [
-        {
-          "name": "ES - Labour cost Survey",
-          "latest": 2025
-        },
         {
           "name": "ES - Establishment statistical Surveys",
           "latest": 2013
@@ -1052,12 +1028,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -1169,24 +1143,20 @@
       "iso3": "SVN",
       "country": "Slovenia",
       "region": "Europe and Central Asia",
-      "coverage": 24.0,
+      "coverage": 16.0,
       "frequency": 50.0,
-      "recency": 100.0,
-      "latest_year": 2025,
+      "recency": 0.0,
+      "latest_year": 2014,
       "latest_period": "2014M09",
       "best_periodicity": "M",
       "periodicities": [
         "M",
         "A"
       ],
-      "n_covered": 2,
+      "n_covered": 1,
       "n_total": 9,
       "pending": null,
       "sources": [
-        {
-          "name": "ES - Labour Cost Survey",
-          "latest": 2025
-        },
         {
           "name": "ES - Monthly Report on Earnings and Persons in Paid Employment",
           "latest": 2014
@@ -1251,12 +1221,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -1552,23 +1520,19 @@
       "iso3": "PHL",
       "country": "Philippines",
       "region": "Asia and the Pacific",
-      "coverage": 8.0,
+      "coverage": 0.0,
       "frequency": 30.0,
-      "recency": 45.5,
-      "latest_year": 2019,
+      "recency": 0.0,
+      "latest_year": 2008,
       "latest_period": "2008",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 1,
+      "n_covered": 0,
       "n_total": 9,
       "pending": null,
       "sources": [
-        {
-          "name": "ES - Integrated Survey",
-          "latest": 2019
-        },
         {
           "name": "ES - Employment, Hours and Earnings Survey",
           "latest": 2008
@@ -1627,12 +1591,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2019,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -1738,23 +1700,19 @@
       "iso3": "ALB",
       "country": "Albania",
       "region": "Europe and Central Asia",
-      "coverage": 8.0,
+      "coverage": 0.0,
       "frequency": 30.0,
-      "recency": 90.9,
-      "latest_year": 2024,
+      "recency": 0.0,
+      "latest_year": 2006,
       "latest_period": "2006",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 1,
+      "n_covered": 0,
       "n_total": 9,
       "pending": null,
       "sources": [
-        {
-          "name": "ES - Labour Cost Survey",
-          "latest": 2024
-        },
         {
           "name": "ES - Labour-related Establishment Survey",
           "latest": 2006
@@ -1813,12 +1771,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2024,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -1834,22 +1790,22 @@
       "iso3": "ARM",
       "country": "Armenia",
       "region": "Europe and Central Asia",
-      "coverage": 8.0,
+      "coverage": 0.0,
       "frequency": 30.0,
-      "recency": 36.4,
-      "latest_year": 2018,
+      "recency": 0.0,
+      "latest_year": 2009,
       "latest_period": "2009",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 1,
+      "n_covered": 0,
       "n_total": 9,
       "pending": null,
       "sources": [
         {
           "name": "ES - Labour-related Establishment Survey",
-          "latest": 2018
+          "latest": 2009
         }
       ],
       "indicators": {
@@ -1905,12 +1861,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2018,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -1926,23 +1880,19 @@
       "iso3": "AUT",
       "country": "Austria",
       "region": "Europe and Central Asia",
-      "coverage": 8.0,
+      "coverage": 0.0,
       "frequency": 30.0,
-      "recency": 100.0,
-      "latest_year": 2025,
+      "recency": 0.0,
+      "latest_year": 2003,
       "latest_period": "2003",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 1,
+      "n_covered": 0,
       "n_total": 9,
       "pending": null,
       "sources": [
-        {
-          "name": "ES - Labour Cost Survey",
-          "latest": 2025
-        },
         {
           "name": "ES - Industrial Production Statistics",
           "latest": 2003
@@ -2001,12 +1951,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -2022,22 +1970,22 @@
       "iso3": "AZE",
       "country": "Azerbaijan",
       "region": "Europe and Central Asia",
-      "coverage": 32.0,
+      "coverage": 24.0,
       "frequency": 65.0,
-      "recency": 81.8,
-      "latest_year": 2023,
+      "recency": 72.7,
+      "latest_year": 2022,
       "latest_period": "2022",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 3,
+      "n_covered": 2,
       "n_total": 9,
       "pending": null,
       "sources": [
         {
           "name": "ES - Labour-related Establishment Survey",
-          "latest": 2023
+          "latest": 2022
         }
       ],
       "indicators": {
@@ -2095,12 +2043,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2023,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -2116,22 +2062,22 @@
       "iso3": "BEL",
       "country": "Belgium",
       "region": "Europe and Central Asia",
-      "coverage": 8.0,
+      "coverage": 0.0,
       "frequency": 30.0,
-      "recency": 90.9,
-      "latest_year": 2024,
+      "recency": 0.0,
+      "latest_year": 2003,
       "latest_period": "2003",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 1,
+      "n_covered": 0,
       "n_total": 9,
       "pending": null,
       "sources": [
         {
           "name": "ES - Labour Cost Survey",
-          "latest": 2024
+          "latest": 2003
         }
       ],
       "indicators": {
@@ -2187,12 +2133,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2024,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -2208,22 +2152,22 @@
       "iso3": "CHL",
       "country": "Chile",
       "region": "Americas",
-      "coverage": 20.0,
+      "coverage": 12.0,
       "frequency": 35.0,
-      "recency": 81.8,
-      "latest_year": 2023,
+      "recency": 45.5,
+      "latest_year": 2019,
       "latest_period": "2019",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 2,
+      "n_covered": 1,
       "n_total": 9,
       "pending": null,
       "sources": [
         {
           "name": "ES - Index for Remuneration and Labour Cost",
-          "latest": 2023
+          "latest": 2019
         }
       ],
       "indicators": {
@@ -2279,12 +2223,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2023,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -2480,22 +2422,22 @@
       "iso3": "DNK",
       "country": "Denmark",
       "region": "Europe and Central Asia",
-      "coverage": 8.0,
+      "coverage": 0.0,
       "frequency": 30.0,
-      "recency": 100.0,
-      "latest_year": 2025,
+      "recency": 0.0,
+      "latest_year": 2003,
       "latest_period": "2003",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 1,
+      "n_covered": 0,
       "n_total": 9,
       "pending": null,
       "sources": [
         {
           "name": "ES - Monthly Survey of industrial employment and labour costs",
-          "latest": 2025
+          "latest": 2003
         }
       ],
       "indicators": {
@@ -2551,12 +2493,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -2752,23 +2692,19 @@
       "iso3": "ESP",
       "country": "Spain",
       "region": "Europe and Central Asia",
-      "coverage": 8.0,
+      "coverage": 0.0,
       "frequency": 30.0,
-      "recency": 100.0,
-      "latest_year": 2025,
+      "recency": 0.0,
+      "latest_year": 2005,
       "latest_period": "2005",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 1,
+      "n_covered": 0,
       "n_total": 9,
       "pending": null,
       "sources": [
-        {
-          "name": "ES - Annual Labour Cost Survey",
-          "latest": 2025
-        },
         {
           "name": "ES - Survey of Wages in Industry and the Services",
           "latest": 2005
@@ -2827,12 +2763,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -2848,22 +2782,22 @@
       "iso3": "EST",
       "country": "Estonia",
       "region": "Europe and Central Asia",
-      "coverage": 8.0,
+      "coverage": 0.0,
       "frequency": 30.0,
-      "recency": 100.0,
-      "latest_year": 2025,
+      "recency": 0.0,
+      "latest_year": 2003,
       "latest_period": "2003",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 1,
+      "n_covered": 0,
       "n_total": 9,
       "pending": null,
       "sources": [
         {
           "name": "ES - Survey of Wages and Salaries",
-          "latest": 2025
+          "latest": 2003
         }
       ],
       "indicators": {
@@ -2919,12 +2853,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -2940,7 +2872,7 @@
       "iso3": "GBR",
       "country": "United Kingdom of Great Britain and Northern Ireland",
       "region": "Europe and Central Asia",
-      "coverage": 20.0,
+      "coverage": 12.0,
       "frequency": 35.0,
       "recency": 45.5,
       "latest_year": 2019,
@@ -2949,7 +2881,7 @@
       "periodicities": [
         "A"
       ],
-      "n_covered": 2,
+      "n_covered": 1,
       "n_total": 9,
       "pending": null,
       "sources": [
@@ -3015,12 +2947,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2016,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -3396,23 +3326,19 @@
       "iso3": "HRV",
       "country": "Croatia",
       "region": "Europe and Central Asia",
-      "coverage": 8.0,
+      "coverage": 0.0,
       "frequency": 30.0,
-      "recency": 100.0,
-      "latest_year": 2025,
+      "recency": 0.0,
+      "latest_year": 2009,
       "latest_period": "2009",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 1,
+      "n_covered": 0,
       "n_total": 9,
       "pending": null,
       "sources": [
-        {
-          "name": "ES - Labour cost Survey",
-          "latest": 2025
-        },
         {
           "name": "ES - Annual Survey on persons in paid employment and gross and net Earnings",
           "latest": 2009
@@ -3471,12 +3397,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -3584,22 +3508,22 @@
       "iso3": "IRL",
       "country": "Ireland",
       "region": "Europe and Central Asia",
-      "coverage": 8.0,
+      "coverage": 0.0,
       "frequency": 30.0,
-      "recency": 100.0,
-      "latest_year": 2025,
+      "recency": 0.0,
+      "latest_year": 2003,
       "latest_period": "2003",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 1,
+      "n_covered": 0,
       "n_total": 9,
       "pending": null,
       "sources": [
         {
           "name": "ES - Earnings Hours and Employment Costs Survey",
-          "latest": 2025
+          "latest": 2003
         }
       ],
       "indicators": {
@@ -3655,12 +3579,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -3676,22 +3598,22 @@
       "iso3": "ISL",
       "country": "Iceland",
       "region": "Europe and Central Asia",
-      "coverage": 8.0,
+      "coverage": 0.0,
       "frequency": 30.0,
-      "recency": 100.0,
-      "latest_year": 2025,
+      "recency": 0.0,
+      "latest_year": 2003,
       "latest_period": "2003",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 1,
+      "n_covered": 0,
       "n_total": 9,
       "pending": null,
       "sources": [
         {
           "name": "ES - Icelandic Survey on Earnings, Wages and Labour cost",
-          "latest": 2025
+          "latest": 2003
         }
       ],
       "indicators": {
@@ -3747,12 +3669,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -4042,7 +3962,7 @@
       "iso3": "KAZ",
       "country": "Kazakhstan",
       "region": "Europe and Central Asia",
-      "coverage": 20.0,
+      "coverage": 12.0,
       "frequency": 60.0,
       "recency": 72.7,
       "latest_year": 2022,
@@ -4051,7 +3971,7 @@
       "periodicities": [
         "A"
       ],
-      "n_covered": 2,
+      "n_covered": 1,
       "n_total": 9,
       "pending": null,
       "sources": [
@@ -4117,12 +4037,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2022,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -4498,23 +4416,19 @@
       "iso3": "LTU",
       "country": "Lithuania",
       "region": "Europe and Central Asia",
-      "coverage": 8.0,
+      "coverage": 0.0,
       "frequency": 30.0,
-      "recency": 100.0,
-      "latest_year": 2025,
+      "recency": 0.0,
+      "latest_year": 2004,
       "latest_period": "2004",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 1,
+      "n_covered": 0,
       "n_total": 9,
       "pending": null,
       "sources": [
-        {
-          "name": "ES - Labour Cost Survey",
-          "latest": 2025
-        },
         {
           "name": "ES - Monthly Earnings Survey",
           "latest": 2004
@@ -4573,12 +4487,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -4684,22 +4596,22 @@
       "iso3": "LVA",
       "country": "Latvia",
       "region": "Europe and Central Asia",
-      "coverage": 8.0,
+      "coverage": 0.0,
       "frequency": 30.0,
-      "recency": 100.0,
-      "latest_year": 2025,
+      "recency": 0.0,
+      "latest_year": 2006,
       "latest_period": "2006",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 1,
+      "n_covered": 0,
       "n_total": 9,
       "pending": null,
       "sources": [
         {
           "name": "ES - Survey of economically Active commercial companies, individual merchants, peasant or fishermen farms, budgetary institutions, foundations, associations or funds, as well as Administrative data.",
-          "latest": 2025
+          "latest": 2006
         }
       ],
       "indicators": {
@@ -4755,12 +4667,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -4960,22 +4870,22 @@
       "iso3": "MNG",
       "country": "Mongolia",
       "region": "Asia and the Pacific",
-      "coverage": 8.0,
+      "coverage": 0.0,
       "frequency": 30.0,
       "recency": 0.0,
-      "latest_year": 2012,
+      "latest_year": 2008,
       "latest_period": "2008",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 1,
+      "n_covered": 0,
       "n_total": 9,
       "pending": null,
       "sources": [
         {
           "name": "ES - Sample Survey on average wages and salaries of employees",
-          "latest": 2012
+          "latest": 2008
         }
       ],
       "indicators": {
@@ -5031,12 +4941,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2012,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -5326,23 +5234,19 @@
       "iso3": "NOR",
       "country": "Norway",
       "region": "Europe and Central Asia",
-      "coverage": 8.0,
+      "coverage": 0.0,
       "frequency": 30.0,
-      "recency": 100.0,
-      "latest_year": 2025,
+      "recency": 0.0,
+      "latest_year": 2003,
       "latest_period": "2003",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 1,
+      "n_covered": 0,
       "n_total": 9,
       "pending": null,
       "sources": [
-        {
-          "name": "ES - Labour Cost Survey",
-          "latest": 2025
-        },
         {
           "name": "ES - Labour-related Establishment Survey",
           "latest": 2003
@@ -5401,12 +5305,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -5422,22 +5324,22 @@
       "iso3": "NZL",
       "country": "New Zealand",
       "region": "Asia and the Pacific",
-      "coverage": 8.0,
+      "coverage": 0.0,
       "frequency": 30.0,
-      "recency": 81.8,
-      "latest_year": 2023,
+      "recency": 0.0,
+      "latest_year": 2008,
       "latest_period": "2008",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 1,
+      "n_covered": 0,
       "n_total": 9,
       "pending": null,
       "sources": [
         {
           "name": "ES - Quarterly Employment Survey",
-          "latest": 2023
+          "latest": 2008
         }
       ],
       "indicators": {
@@ -5493,12 +5395,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2023,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -5604,22 +5504,22 @@
       "iso3": "ROU",
       "country": "Romania",
       "region": "Europe and Central Asia",
-      "coverage": 8.0,
+      "coverage": 0.0,
       "frequency": 30.0,
-      "recency": 100.0,
-      "latest_year": 2025,
+      "recency": 0.0,
+      "latest_year": 2006,
       "latest_period": "2006",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 1,
+      "n_covered": 0,
       "n_total": 9,
       "pending": null,
       "sources": [
         {
           "name": "ES - Labour cost Survey",
-          "latest": 2025
+          "latest": 2006
         }
       ],
       "indicators": {
@@ -5675,12 +5575,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -5696,7 +5594,7 @@
       "iso3": "RUS",
       "country": "Russian Federation",
       "region": "Europe and Central Asia",
-      "coverage": 20.0,
+      "coverage": 12.0,
       "frequency": 50.0,
       "recency": 63.6,
       "latest_year": 2021,
@@ -5705,7 +5603,7 @@
       "periodicities": [
         "A"
       ],
-      "n_covered": 2,
+      "n_covered": 1,
       "n_total": 9,
       "pending": null,
       "sources": [
@@ -5767,12 +5665,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2019,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -5878,23 +5774,19 @@
       "iso3": "SVK",
       "country": "Slovakia",
       "region": "Europe and Central Asia",
-      "coverage": 8.0,
+      "coverage": 0.0,
       "frequency": 30.0,
-      "recency": 100.0,
-      "latest_year": 2025,
+      "recency": 0.0,
+      "latest_year": 2004,
       "latest_period": "2004",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 1,
+      "n_covered": 0,
       "n_total": 9,
       "pending": null,
       "sources": [
-        {
-          "name": "ES - Labour-related Establishment Survey",
-          "latest": 2025
-        },
         {
           "name": "ES - Quarterly Survey on Labour",
           "latest": 2004
@@ -5953,12 +5845,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -5974,23 +5864,19 @@
       "iso3": "SWE",
       "country": "Sweden",
       "region": "Europe and Central Asia",
-      "coverage": 8.0,
+      "coverage": 0.0,
       "frequency": 30.0,
-      "recency": 100.0,
-      "latest_year": 2025,
+      "recency": 0.0,
+      "latest_year": 2003,
       "latest_period": "2003",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 1,
+      "n_covered": 0,
       "n_total": 9,
       "pending": null,
       "sources": [
-        {
-          "name": "ES - Labour Cost Survey",
-          "latest": 2025
-        },
         {
           "name": "ES - Survey of Wages and Employment in mining, quarrying and manufacturing",
           "latest": 2003
@@ -6049,12 +5935,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -6340,23 +6224,19 @@
       "iso3": "TUR",
       "country": "Türkiye",
       "region": "Europe and Central Asia",
-      "coverage": 8.0,
+      "coverage": 0.0,
       "frequency": 30.0,
-      "recency": 100.0,
-      "latest_year": 2025,
+      "recency": 0.0,
+      "latest_year": 2004,
       "latest_period": "2004",
       "best_periodicity": "A",
       "periodicities": [
         "A"
       ],
-      "n_covered": 1,
+      "n_covered": 0,
       "n_total": 9,
       "pending": null,
       "sources": [
-        {
-          "name": "ES - Labour Cost Survey",
-          "latest": 2025
-        },
         {
           "name": "ES - Annual Survey of Manufacturing Industry",
           "latest": 2004
@@ -6415,12 +6295,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -6616,7 +6494,7 @@
       "iso3": "UKR",
       "country": "Ukraine",
       "region": "Europe and Central Asia",
-      "coverage": 20.0,
+      "coverage": 12.0,
       "frequency": 65.0,
       "recency": 72.7,
       "latest_year": 2022,
@@ -6625,17 +6503,13 @@
       "periodicities": [
         "A"
       ],
-      "n_covered": 2,
+      "n_covered": 1,
       "n_total": 9,
       "pending": null,
       "sources": [
         {
           "name": "ES - Survey of enterprises on matters pertaining to labor statistics",
           "latest": 2022
-        },
-        {
-          "name": "ES - Labour cost Survey",
-          "latest": 2018
         }
       ],
       "indicators": {
@@ -6691,12 +6565,10 @@
           "via": null
         },
         "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2018,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
@@ -7061,726 +6933,6 @@
           "latest": null,
           "periodicity": null,
           "periodicities": [],
-          "via": null
-        },
-        "EMP_TEMP_SEX_STE_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        }
-      }
-    },
-    {
-      "iso3": "BRA",
-      "country": "Brazil",
-      "region": "Americas",
-      "coverage": 8.0,
-      "frequency": 15.0,
-      "recency": 54.5,
-      "latest_year": 2020,
-      "latest_period": null,
-      "best_periodicity": "irregular",
-      "periodicities": [
-        "A"
-      ],
-      "n_covered": 1,
-      "n_total": 9,
-      "pending": null,
-      "sources": [
-        {
-          "name": "ES - Annual report on social information",
-          "latest": 2020
-        }
-      ],
-      "indicators": {
-        "EES_TEES_SEX_AGE_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EMP_TEMP_SEX_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EAR_EMTA_SEX_ECO_CUR_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EAR_EHRA_SEX_ECO_CUR_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "HOW_TEMP_SEX_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EES_TEES_SEX_AGE_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EES_TEES_SEX_AGE_INS_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2020,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
-          "via": null
-        },
-        "EMP_TEMP_SEX_STE_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        }
-      }
-    },
-    {
-      "iso3": "CHE",
-      "country": "Switzerland",
-      "region": "Europe and Central Asia",
-      "coverage": 8.0,
-      "frequency": 15.0,
-      "recency": 54.5,
-      "latest_year": 2020,
-      "latest_period": null,
-      "best_periodicity": "irregular",
-      "periodicities": [
-        "A"
-      ],
-      "n_covered": 1,
-      "n_total": 9,
-      "pending": null,
-      "sources": [
-        {
-          "name": "ES - Employment Statistics",
-          "latest": 2020
-        }
-      ],
-      "indicators": {
-        "EES_TEES_SEX_AGE_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EMP_TEMP_SEX_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EAR_EMTA_SEX_ECO_CUR_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EAR_EHRA_SEX_ECO_CUR_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "HOW_TEMP_SEX_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EES_TEES_SEX_AGE_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EES_TEES_SEX_AGE_INS_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2020,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
-          "via": null
-        },
-        "EMP_TEMP_SEX_STE_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        }
-      }
-    },
-    {
-      "iso3": "FIN",
-      "country": "Finland",
-      "region": "Europe and Central Asia",
-      "coverage": 8.0,
-      "frequency": 15.0,
-      "recency": 100.0,
-      "latest_year": 2025,
-      "latest_period": null,
-      "best_periodicity": "irregular",
-      "periodicities": [
-        "A"
-      ],
-      "n_covered": 1,
-      "n_total": 9,
-      "pending": null,
-      "sources": [
-        {
-          "name": "ES - Labour cost Survey",
-          "latest": 2025
-        }
-      ],
-      "indicators": {
-        "EES_TEES_SEX_AGE_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EMP_TEMP_SEX_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EAR_EMTA_SEX_ECO_CUR_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EAR_EHRA_SEX_ECO_CUR_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "HOW_TEMP_SEX_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EES_TEES_SEX_AGE_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EES_TEES_SEX_AGE_INS_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
-          "via": null
-        },
-        "EMP_TEMP_SEX_STE_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        }
-      }
-    },
-    {
-      "iso3": "FRA",
-      "country": "France",
-      "region": "Europe and Central Asia",
-      "coverage": 8.0,
-      "frequency": 15.0,
-      "recency": 100.0,
-      "latest_year": 2025,
-      "latest_period": null,
-      "best_periodicity": "irregular",
-      "periodicities": [
-        "A"
-      ],
-      "n_covered": 1,
-      "n_total": 9,
-      "pending": null,
-      "sources": [
-        {
-          "name": "ES - Quartery Survey on the economic activity and Working conditions of the labour force",
-          "latest": 2025
-        }
-      ],
-      "indicators": {
-        "EES_TEES_SEX_AGE_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EMP_TEMP_SEX_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EAR_EMTA_SEX_ECO_CUR_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EAR_EHRA_SEX_ECO_CUR_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "HOW_TEMP_SEX_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EES_TEES_SEX_AGE_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EES_TEES_SEX_AGE_INS_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
-          "via": null
-        },
-        "EMP_TEMP_SEX_STE_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        }
-      }
-    },
-    {
-      "iso3": "GRC",
-      "country": "Greece",
-      "region": "Europe and Central Asia",
-      "coverage": 8.0,
-      "frequency": 15.0,
-      "recency": 100.0,
-      "latest_year": 2025,
-      "latest_period": null,
-      "best_periodicity": "irregular",
-      "periodicities": [
-        "A"
-      ],
-      "n_covered": 1,
-      "n_total": 9,
-      "pending": null,
-      "sources": [
-        {
-          "name": "ES - Labour Cost Survey",
-          "latest": 2025
-        }
-      ],
-      "indicators": {
-        "EES_TEES_SEX_AGE_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EMP_TEMP_SEX_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EAR_EMTA_SEX_ECO_CUR_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EAR_EHRA_SEX_ECO_CUR_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "HOW_TEMP_SEX_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EES_TEES_SEX_AGE_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EES_TEES_SEX_AGE_INS_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
-          "via": null
-        },
-        "EMP_TEMP_SEX_STE_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        }
-      }
-    },
-    {
-      "iso3": "MLT",
-      "country": "Malta",
-      "region": "Europe and Central Asia",
-      "coverage": 8.0,
-      "frequency": 15.0,
-      "recency": 100.0,
-      "latest_year": 2025,
-      "latest_period": null,
-      "best_periodicity": "irregular",
-      "periodicities": [
-        "A"
-      ],
-      "n_covered": 1,
-      "n_total": 9,
-      "pending": null,
-      "sources": [
-        {
-          "name": "EC - Labour Cost Survey",
-          "latest": 2025
-        }
-      ],
-      "indicators": {
-        "EES_TEES_SEX_AGE_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EMP_TEMP_SEX_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EAR_EMTA_SEX_ECO_CUR_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EAR_EHRA_SEX_ECO_CUR_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "HOW_TEMP_SEX_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EES_TEES_SEX_AGE_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EES_TEES_SEX_AGE_INS_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2025,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
-          "via": null
-        },
-        "EMP_TEMP_SEX_STE_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        }
-      }
-    },
-    {
-      "iso3": "THA",
-      "country": "Thailand",
-      "region": "Asia and the Pacific",
-      "coverage": 8.0,
-      "frequency": 15.0,
-      "recency": 90.9,
-      "latest_year": 2024,
-      "latest_period": null,
-      "best_periodicity": "irregular",
-      "periodicities": [
-        "A"
-      ],
-      "n_covered": 1,
-      "n_total": 9,
-      "pending": null,
-      "sources": [
-        {
-          "name": "ES - Business trade and service Survey",
-          "latest": 2024
-        }
-      ],
-      "indicators": {
-        "EES_TEES_SEX_AGE_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EMP_TEMP_SEX_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EAR_EMTA_SEX_ECO_CUR_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EAR_EHRA_SEX_ECO_CUR_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "HOW_TEMP_SEX_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EES_TEES_SEX_AGE_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EES_TEES_SEX_AGE_INS_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2024,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
-          "via": null
-        },
-        "EMP_TEMP_SEX_STE_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        }
-      }
-    },
-    {
-      "iso3": "USA",
-      "country": "United States of America",
-      "region": "Americas",
-      "coverage": 8.0,
-      "frequency": 15.0,
-      "recency": 90.9,
-      "latest_year": 2024,
-      "latest_period": null,
-      "best_periodicity": "irregular",
-      "periodicities": [
-        "A"
-      ],
-      "n_covered": 1,
-      "n_total": 9,
-      "pending": null,
-      "sources": [
-        {
-          "name": "ES - National Compensation Survey",
-          "latest": 2024
-        }
-      ],
-      "indicators": {
-        "EES_TEES_SEX_AGE_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EMP_TEMP_SEX_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EAR_EMTA_SEX_ECO_CUR_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EAR_EHRA_SEX_ECO_CUR_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "HOW_TEMP_SEX_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EES_TEES_SEX_AGE_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EES_TEES_SEX_AGE_INS_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "LAC_XEES_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2024,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
           "via": null
         },
         "EMP_TEMP_SEX_STE_NB": {
