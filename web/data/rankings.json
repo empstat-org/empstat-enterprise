@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20 00:48",
+  "generated": "2026-10-27 01:00",
   "current_year": 2026,
   "index_name": "Enterprise / Establishment Data Coverage Index",
   "source": "ILOSTAT (ilostat.ilo.org)",
@@ -1402,106 +1402,6 @@
           "latest": null,
           "periodicity": null,
           "periodicities": [],
-          "via": null
-        },
-        "EAR_EHRA_SEX_ECO_CUR_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "HOW_TEMP_SEX_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EES_TEES_SEX_AGE_ECO_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EES_TEES_SEX_AGE_INS_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "LAC_XEES_ECO_CUR_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EMP_TEMP_SEX_STE_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        }
-      }
-    },
-    {
-      "iso3": "JEY",
-      "country": "Jersey",
-      "region": "Other",
-      "coverage": 28.0,
-      "frequency": 35.0,
-      "recency": 18.2,
-      "latest_year": 2016,
-      "latest_period": "2016",
-      "best_periodicity": "A",
-      "periodicities": [
-        "A"
-      ],
-      "n_covered": 2,
-      "n_total": 9,
-      "pending": null,
-      "sources": [
-        {
-          "name": "ES - Index of Average Earnings",
-          "latest": 2016
-        },
-        {
-          "name": "EC - Manpower Survey",
-          "latest": 2013
-        },
-        {
-          "name": "ES - Labour-related Establishment Survey",
-          "latest": 2008
-        }
-      ],
-      "indicators": {
-        "EES_TEES_SEX_AGE_NB": {
-          "covered": false,
-          "latest": null,
-          "periodicity": null,
-          "periodicities": [],
-          "via": null
-        },
-        "EMP_TEMP_SEX_ECO_NB": {
-          "covered": true,
-          "latest": 2013,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
-          "via": null
-        },
-        "EAR_EMTA_SEX_ECO_CUR_NB": {
-          "covered": true,
-          "latest": 2016,
-          "periodicity": "A",
-          "periodicities": [
-            "A"
-          ],
           "via": null
         },
         "EAR_EHRA_SEX_ECO_CUR_NB": {
@@ -3804,6 +3704,100 @@
         "EAR_EMTA_SEX_ECO_CUR_NB": {
           "covered": false,
           "latest": 2007,
+          "periodicity": "A",
+          "periodicities": [
+            "A"
+          ],
+          "via": null
+        },
+        "EAR_EHRA_SEX_ECO_CUR_NB": {
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
+          "via": null
+        },
+        "HOW_TEMP_SEX_ECO_NB": {
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
+          "via": null
+        },
+        "EES_TEES_SEX_AGE_ECO_NB": {
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
+          "via": null
+        },
+        "EES_TEES_SEX_AGE_INS_NB": {
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
+          "via": null
+        },
+        "LAC_XEES_ECO_CUR_NB": {
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
+          "via": null
+        },
+        "EMP_TEMP_SEX_STE_NB": {
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
+          "via": null
+        }
+      }
+    },
+    {
+      "iso3": "JEY",
+      "country": "Jersey",
+      "region": "Other",
+      "coverage": 12.0,
+      "frequency": 35.0,
+      "recency": 18.2,
+      "latest_year": 2016,
+      "latest_period": "2016",
+      "best_periodicity": "A",
+      "periodicities": [
+        "A"
+      ],
+      "n_covered": 1,
+      "n_total": 9,
+      "pending": null,
+      "sources": [
+        {
+          "name": "ES - Index of Average Earnings",
+          "latest": 2016
+        },
+        {
+          "name": "ES - Labour-related Establishment Survey",
+          "latest": 2008
+        }
+      ],
+      "indicators": {
+        "EES_TEES_SEX_AGE_NB": {
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
+          "via": null
+        },
+        "EMP_TEMP_SEX_ECO_NB": {
+          "covered": false,
+          "latest": null,
+          "periodicity": null,
+          "periodicities": [],
+          "via": null
+        },
+        "EAR_EMTA_SEX_ECO_CUR_NB": {
+          "covered": true,
+          "latest": 2016,
           "periodicity": "A",
           "periodicities": [
             "A"
